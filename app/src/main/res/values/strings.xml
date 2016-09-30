@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BLETest</string>
+    <string name="action_save">Save logs</string>
+    <string name="action_energyuse">Log energy usage</string>
+    <string name="action_latency">Start latency testing</string>
+    <string name="action_compatibility">Check phone compatibility</string>
+    <string name="action_testmode">Initialize Test Keys</string>
+    <string name="action_delete">Delete</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="bleBeaconSupported">BLE broadcasting is supported</string>
+    <string name="bleBeaconNotSupported">BLE broadcasting not supported</string>
+    <string name="bleSupported">BLE not supported</string>
+    <string name="bleNotSupported">BLE is supported</string>
+    <string name="beaconBroadcastFailed">Beacon failed</string>
+    <string name="beaconBroadcastSuccess">Beacon success</string>
+    <string name="bleScanSuccess">Scan successful</string>
+    <string name="bleScanFail">Scan failed</string>
+    <string name="secondaryBeaconFail">Beacon failed</string>
+    <string name="secondaryBeaconSuccess">Secondary Beacon success</string>
+    <string name="bluetoothNotEnabled">Bluetooth not enabled</string>
+    <string name="bluetoothEnabled">Bluetooth is enabled</string>
+    <string name="permissionsNotGranted">Permissions not granted</string>
+    <string name="permissionsGranted">Permissions granted</string>
+    <string name="title_activity_new_group">NewGroupActivity</string>
+    <string name="title_activity_new_peer">NewPeerActivity</string>
+    <string name="title_activity_group_info">GroupInfoActivity</string>
+
+    <string name="new_message_notification_title_template">New message from %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="add_scanning_key">Add Scanning Key</string>
+    <string name="add_advertisement_key">Add Discovery Group</string>
+</resources>

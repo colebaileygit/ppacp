@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.kit.bletest.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/permissionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking Permissions..."/>
+    <TextView
+        android:id="@+id/bleCapableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking BLE Capability..."/>
+    <TextView
+        android:id="@+id/bleEnabledText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking Bluetooth Enabled..."/>
+    <TextView
+        android:id="@+id/beaconCapableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking Beacon Capability..."/>
+    <TextView
+        android:id="@+id/scanTestText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manually Checking Scanning Capability..."/>
+    <TextView
+        android:id="@+id/beaconTestText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manually Checking Beacon Capability..."/>
+    <TextView
+        android:id="@+id/secondBeaconTestText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manually Checking Beacon Capability..."/>
+</LinearLayout>

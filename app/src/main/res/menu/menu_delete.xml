@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.kit.bletest.MainActivity">
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="200"
+        android:title="@string/action_delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_scanning"
+        android:orderInCategory="300"
+        android:title="@string/add_scanning_key"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_advertisement"
+        android:orderInCategory="300"
+        android:title="@string/add_advertisement_key"
+        android:visible="false"
+        app:showAsAction="never" />
+</menu>
