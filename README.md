@@ -1,2 +1,2 @@
-# ppacp
-Privacy Preserving Ad hoc Communication Protocol for BLE
+# Privacy Preserving Ad hoc Communication Protocol (PPACP)
+Privacy-preserving protocol for BLE. Integrate the native Android library into your Android application.
